@@ -1,0 +1,5 @@
+What is this project about?
+This project is aimed at creating an application that can read Geez texts in images
+and then converts them to editable formaats such as .txt or .doc files.
+it will be built using image recognition model that is trained from prepared datasets
+of individual Ge'ez alphabet
