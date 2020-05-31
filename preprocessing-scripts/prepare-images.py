@@ -8,7 +8,7 @@ def generate_image(font=None,char=None,dest_folder=None):
     print("preparing for font ",name_prefix)
     image_name_output =name_prefix+'_'+char+'.jpg'
     mode = 'RGB' # for color image “L” (luminance) for greyscale images, “RGB” for true color images, and “CMYK” for pre-press images.
-    size = (500, 540)
+    size = (500, 400)
     color = (255, 255, 255)
     font = ImageFont.truetype(font,400)
     img = Image.new(mode, size, color)
